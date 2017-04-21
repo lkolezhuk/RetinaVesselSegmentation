@@ -1,0 +1,5 @@
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/ucas/CMakeFiles/ucasUtils.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/aia/CMakeFiles/aiaUtils.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/project0/CMakeFiles/project0.dir

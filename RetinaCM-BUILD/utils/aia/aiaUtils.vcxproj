@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{717FAFB0-3E9D-32A1-BD6C-55B372884EDD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>aiaUtils</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\libs\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aiaUtils.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aiaUtils</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\libs\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aiaUtils.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aiaUtils</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\libs\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aiaUtils.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aiaUtils</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\libs\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aiaUtils.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aiaUtils</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4996;4530;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;EXAMPLE_IMAGES_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images";OPENCV_FACE_DETECTOR_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;EXAMPLE_IMAGES_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images\";OPENCV_FACE_DETECTOR_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290;4996;4530;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images";OPENCV_FACE_DETECTOR_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images\";OPENCV_FACE_DETECTOR_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290;4996;4530;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images";OPENCV_FACE_DETECTOR_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images\";OPENCV_FACE_DETECTOR_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4996;4530;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images";OPENCV_FACE_DETECTOR_PATH="C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXAMPLE_IMAGES_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/example_images\";OPENCV_FACE_DETECTOR_PATH=\"C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/haarcascade_frontalface_alt.xml\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe" -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/aia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\utils\aia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe" -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/aia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\utils\aia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe" -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/aia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\utils\aia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe" -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM-BUILD/utils/aia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/ProjectsSemester/Retina/RetinaCM/utils/aia/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\utils\aia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\aiaConfig.h" />
+    <ClCompile Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\aiaConfig.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\ZERO_CHECK.vcxproj">
+      <Project>841A9C0E-73A6-3467-B35D-EE6F02FB56AF</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

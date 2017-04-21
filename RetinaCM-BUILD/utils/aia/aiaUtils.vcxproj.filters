@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\aiaConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\aiaConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM\utils\aia\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CFC354F3-0601-3D94-9EBA-C9AD0F865D9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06DDBBE5-E1C7-3735-AF53-5FA63F29D8B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

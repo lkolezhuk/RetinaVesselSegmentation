@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\ProjectsSemester\Retina\RetinaCM-BUILD\CMakeFiles\5d81b9bdaf842f344b1d924bb32959a9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F590C78-FE1C-3220-B1DC-ABBFCCFFB02F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
